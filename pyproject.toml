@@ -1,0 +1,9 @@
+[project]
+name = "toio-ros2-dev-kit"
+version = "1.0.0"
+description = "toio ROS 2 development kit"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mkdocs-material>=9.7.6",
+]

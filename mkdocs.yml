@@ -1,0 +1,13 @@
+site_name: toio_ros2_dev_kit
+site_url: https://127.0.0.1/toio_ros2_dev_kit
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Package:
+    - toio_ros2: package/toio_ros2.md
+    - toio_navigation: package/toio_navigation.md
+    - toio_gazebo: package/toio_gazebo.md
+  - About:
+    - Contributing: about/contributing.md
+    - License: about/license.md
