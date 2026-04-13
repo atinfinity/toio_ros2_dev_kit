@@ -4,13 +4,17 @@
 
 `toio_navigation` is ROS 2 package for navigation2 using [toio](https://toio.io/).
 
+<video style="width: 100%" muted="" controls="" alt="type:video">
+   <source src="../videos/toio_ros2_navigation_demo.mp4" type="video/mp4">
+</video>
+
 ## Requirements
 
 ### Hardware
 
 - toio Core Cube
 - toio play mat
-  - Please see <https://toio.github.io/toio-spec/en/docs/hardware_position_id>.
+    - Please see <https://toio.github.io/toio-spec/en/docs/hardware_position_id>.
 
 ### Software
 
