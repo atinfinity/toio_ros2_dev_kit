@@ -6,6 +6,15 @@
 
 ![](https://raw.githubusercontent.com/atinfinity/toio_ros2/refs/heads/jazzy/image/toio_ros2_rviz2.png)
 
+If you are interested in this work, please read <https://qiita.com/dandelion1124/items/150ec284d8d85769f745>.
+
+## Feature
+
+- Control using the `cmd_vel` topic
+- Navigation using the `goal_pose` topic
+- Publish `/toio/pose` topic and `tf` topic(position and orientation of toio)
+- Publish `/toio/battery_level` as battery level information
+
 ## Requirements
 
 ### Hardware

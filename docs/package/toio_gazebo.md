@@ -8,6 +8,14 @@ This is a ROS 2 Package to develop package of [toio](https://toio.io/) using Gaz
    <source src="../videos/toio_gazebo.mp4" type="video/mp4">
 </video>
 
+
+## Feature
+
+`toio_gazebo` provides Gazebo environment for toio.
+
+- Control using the `/cmd_vel` topic
+- Publish `/tf` topic(position and orientation of toio)
+
 ## Requirements
 
 - Ubuntu 24.04

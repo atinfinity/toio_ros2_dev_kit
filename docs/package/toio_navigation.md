@@ -8,6 +8,11 @@
    <source src="../videos/toio_ros2_navigation_demo.mp4" type="video/mp4">
 </video>
 
+## Feature
+
+`toio_navigation` supports navigation using [navigation2](https://nav2.org/).
+And, `toio_navigation` bundled nav2 parameters tuned for toio.
+
 ## Requirements
 
 ### Hardware
