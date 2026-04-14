@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://127.0.0.1/toio_ros2_dev_kit/</loc>
+         <lastmod>2026-04-14</lastmod>
+    </url>
+    <url>
+         <loc>https://127.0.0.1/toio_ros2_dev_kit/about/license/</loc>
+         <lastmod>2026-04-14</lastmod>
+    </url>
+    <url>
+         <loc>https://127.0.0.1/toio_ros2_dev_kit/package/toio_description/</loc>
+         <lastmod>2026-04-14</lastmod>
+    </url>
+    <url>
+         <loc>https://127.0.0.1/toio_ros2_dev_kit/package/toio_gazebo/</loc>
+         <lastmod>2026-04-14</lastmod>
+    </url>
+    <url>
+         <loc>https://127.0.0.1/toio_ros2_dev_kit/package/toio_navigation/</loc>
+         <lastmod>2026-04-14</lastmod>
+    </url>
+    <url>
+         <loc>https://127.0.0.1/toio_ros2_dev_kit/package/toio_ros2/</loc>
+         <lastmod>2026-04-14</lastmod>
+    </url>
+</urlset>
