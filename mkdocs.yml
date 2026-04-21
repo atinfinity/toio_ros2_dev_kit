@@ -9,8 +9,9 @@ nav:
     - toio_description: package/toio_description.md
     - toio_navigation: package/toio_navigation.md
     - toio_gazebo: package/toio_gazebo.md
+  - Advanced:
+    - obstacle avoidance: advanced/obstacle_avoidance.md
   - About:
     - License: about/license.md
 plugins:
     - mkdocs-video
-  

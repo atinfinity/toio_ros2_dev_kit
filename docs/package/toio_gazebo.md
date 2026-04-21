@@ -9,6 +9,10 @@ This is a ROS 2 Package to develop package of [toio](https://toio.io/) using Gaz
 </video>
 
 
+<video style="width: 100%" muted="" controls="" alt="type:video">
+   <source src="../videos/toio_navigation_with_gazebo.mp4" type="video/mp4">
+</video>
+
 ## Feature
 
 `toio_gazebo` provides Gazebo environment for toio.
