@@ -15,6 +15,7 @@
 |package|feature|URL|
 |---|---|---|
 |[toio_ros2](package/toio_ros2.md)|toio ROS 2 wrapper package|<https://github.com/atinfinity/toio_ros2>|
+|[toio_msgs](package/toio_msgs.md)|toio custom messages(LED / sound / motion)|<https://github.com/atinfinity/toio_msgs>|
 |[toio_description](package/toio_description.md)|toio description package|<https://github.com/atinfinity/toio_description>|
 |[toio_navigation](package/toio_navigation.md)|toio navigation package|<https://github.com/atinfinity/toio_navigation>|
 |[toio_gazebo](package/toio_gazebo.md)|toio simulator using Gazebo|<https://github.com/atinfinity/toio_gazebo>|

@@ -16,7 +16,9 @@ And, `toio_navigation` bundled nav2 parameters tuned for toio.
 - Navigation of a single toio using nav2
 - Multi-robot navigation(one nav2 stack per robot)
 - Avoidance of the peer robots using `peer_robot_costmap_publisher`
-- Maps of the A4/A3 play mat(with and without obstacle)
+- Maps of the A4/A3 play mat(plain, with obstacle, zigzag, spiral)
+- Selectable controller(`FollowPath` = Regulated Pure Pursuit, `FollowPathGraceful` = Graceful) via the `controller` argument
+- Optional open-loop `velocity_smoother`(`use_velocity_smoother`, default on)
 
 ## Requirements
 
@@ -44,10 +46,25 @@ Maps for the play mat are stored in [maps](https://github.com/atinfinity/toio_na
 |:---|:---|
 |toio_a4_map.yaml|A4 play mat|
 |toio_a4_map_with_obstacle.yaml|A4 play mat with obstacle|
+|toio_a4_map_zigzag.yaml|A4 play mat, zigzag course|
+|toio_a4_map_spiral.yaml|A4 play mat, spiral course|
 |toio_a3_map.yaml|A3 play mat|
 |toio_a3_map_with_obstacle.yaml|A3 play mat with obstacle|
+|toio_a3_map_zigzag.yaml|A3 play mat, zigzag course|
+|toio_a3_map_spiral.yaml|A3 play mat, spiral course|
 
 If you use Gazebo simulator, please add `use_sim_time:=True` to the launch command.
+
+## Controller and velocity smoother
+
+The controller plugin is selected with the `controller` argument: `FollowPath`
+(Regulated Pure Pursuit, the default) or `FollowPathGraceful`
+(`nav2_graceful_controller`).
+
+`velocity_smoother`(open-loop) is launched by default(`use_velocity_smoother:=True`)
+now that `/odom` exists, and smooths the controller output before the cube
+(`controller -> cmd_vel_nav -> velocity_smoother -> cmd_vel`). Set
+`use_velocity_smoother:=False` for the plain `controller -> cmd_vel` path.
 
 ## Multi-robot navigation
 
